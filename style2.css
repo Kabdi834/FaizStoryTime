@@ -1,0 +1,80 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.faizp1 {
+    width: 100%;
+    padding: 78px 0;
+    background-color:white;
+}
+
+.faizp1 img {
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.faizp1-text {
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main {
+    max-width: 1130px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.faizp1-text h1 {
+    color:white;
+    font-size: 48px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.faizp1-text h5 {
+    color: black;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+span {
+    color: #f9004d;
+}
+
+.faizp1-text p {
+    color: black;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+button {
+    background: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: background 0.3s, border 0.3s;
+}
+
+button:hover {
+    background: transparent;
+    border: 2px solid #f9004d;
+    color: #f9004d;
+    cursor: pointer;
+}

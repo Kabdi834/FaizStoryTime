@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+a {
+    padding: 16px 35px;
+    text-decoration: none;
+    border: 1px solid rgb(255, 181, 0);
+    border-radius: 35px;
+    letter-spacing: 2px;
+    color: #fff;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: rgb(255, 181, 0);
+}
